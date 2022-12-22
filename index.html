@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>uy ishi</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="main container">
+        <div class="modal">
+            <div class="modal-content">
+              <button class="close-btn">X</button>
+              <p>Buyurtma qabul qilindi!</p>
+            </div>
+          </div>
+          
+        <div class="main__pizza">
+            <h1> Bellissimo Pizza</h1>
+
+            <form class="">
+
+                <div class="form-row">
+                    <div class="col-md-10 mb-3 ml-4">
+                        <input type="text"  id="validationCustom01" required
+                            placeholder="User Name">
+                        <div class="valid-feedback">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-10 mb-3 ml-4">
+                        <input type="text"  id="validationCustom01" required
+                            placeholder="Phone Number">
+                        <div class="valid-feedback">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-10 mb-3 ml-4">
+                        <input type="text"  id="validationCustom01" required
+                            placeholder="User Address">
+                        <div class="valid-feedback">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 d-flex mb-3 ml-3">
+                    <p class="signess mt-1">Dough thickness</p>
+                    <select class="custom-select col-md-5" id="validationCustom04" required>
+                        <option>none</option>
+                        <option>Thin</option>
+                        <option>Medium</option>
+                        <option>Thick</option>
+                    </select>
+                </div>
+                <div class="size-radio d-flex justify-content-center align-items-center ">
+                    <p>Size:</p>
+                    <label>
+                        <input type="radio" name="size" required value="25" class="checkbox"  />
+                        <div class=" custom-radio d-flex align-items-center justify-content-center ">
+                            <p class="m-0">25cm</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" required value="30" class="checkbox" />
+                        <div class="custom-radio d-flex align-items-center justify-content-center ">
+                            <p class="m-0">30cm</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" required value="35" class="checkbox" />
+                        <div class="custom-radio d-flex align-items-center justify-content-center ">
+                            <p class="m-0">35cm</p>
+                        </div>
+                    </label>
+                </div>
+                <div  class="menu mb-3 mt-3 ml-3">
+                    <h4>On Pizza</h4>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="tomato">
+                        tomato
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="turkey meat">
+                        turkey meat
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="olive">
+                        olive
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="pickled cucumber">
+                        pickled cucumber
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id=" mushroom" >
+                        mushroom
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="horse meta">
+                        horse meta
+                    </label>
+                </div>
+
+                <div class="menu mb-3 mt-3 ml-3">
+                    <h4>Add:</h4>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="papper" >
+                        papper
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="paparoti" id="sausages">
+                        sausages
+                    </label>
+                </div>
+                
+                <!-- <div class="d-flex justify-content-center .align-items-center ">
+                    <p class="Size-inp">Size:</p>
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                </div> -->
+
+                <button class="btn btn-primary d-flex " type="submit">save</button>
+            </form>
+        </div>
+
+    </section>
+<script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

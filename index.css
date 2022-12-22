@@ -1,0 +1,121 @@
+body{
+    background-image:url(./assets/images/pngtree-black-simple-and-delicious-pizza-food-e-commerce-banner-taobao-image_172918.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.main{
+    padding-top: 10px;
+}
+
+.modal {
+  width: 250px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border: 2px solid green;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.modal-show {
+  display: flex;
+}
+
+.modal-content {
+  position: relative;
+  padding: 10px 50px;
+  width: max-content;
+  border-radius: 10px;
+}
+.modal-content p {
+  color: green;
+  font-size: 18px;
+  width: 100%;
+  padding: 0;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+.main__pizza{
+    background-image: url(./assets/images/back1.jpg);
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 650px;
+    opacity: 1;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.signess{
+    color: white;
+    width: 190px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Size-inp{
+    color: white;
+    margin: 0;
+}
+
+.checkbox{
+  display: none;
+} 
+
+
+
+input:checked + div {
+  background-color: green;
+} 
+
+.custom-radio {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.size-radio{
+    gap: 20px;
+}
+
+
+.size-radio p{
+    color: white;
+    margin-right: 50px;
+}
+
+.menu label{
+  color: white;
+  width: 180px;
+}
+
+.menu h4{
+  color: white;
+}
+
+.btn{
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+}
